@@ -10,4 +10,6 @@ var btns = document.querySelectorAll('button');
 // Convert buttons NodeList to an array
 var btnsArr = Array.prototype.slice.call(btns);
 
+// Convert buttons NodeList to an array
+var btnsArr = Array.from(btns);
 */
